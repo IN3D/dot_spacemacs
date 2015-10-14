@@ -175,6 +175,7 @@ user code."
   "Configuration function for user code.
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
+  (setq js-indent-level 2)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
